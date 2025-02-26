@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 
     if (argc < 2) {
         printf
-            ("This program fixes r.topmodel input files by converting UNIX files to DOS file format and removing newline at the end of a file.\n\n");
+            ("This program fixes r.topmodel input files by converting UNIX files to DOS file format and removing newline at the end of the files.\n\n");
         printf("Usage: fix_rtopmodel file...\n");
         exit(EXIT_SUCCESS);
     }
